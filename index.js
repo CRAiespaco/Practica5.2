@@ -6,7 +6,7 @@ const urlMongoAtlas="mongodb+srv://admin:admin123456@christopherdb.1h9nloo.mongo
 mongoose.connect(urlMongoAtlas,(err,res)=>{
     try{
         if(err){
-            throw erro
+            throw err
         }else{
             console.log("La conexión a la BD es correcta");
 
